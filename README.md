@@ -1,93 +1,116 @@
-<!-- ORBION — GitHub Profile README -->
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0ea5e9,50:6366f1,100:020617&height=200&section=header&text=ORBION&fontSize=80&fontColor=ffffff&fontAlignY=38&desc=Self-Hosted%20Multi-Agent%20AI%20Office&descAlignY=58&descSize=20&animation=fadeIn" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0ea5e9,50:6366f1,100:020617&height=200&section=header&text=Erden%20Ya%C4%9F%C4%B1c%C4%B1&fontSize=54&fontColor=ffffff&fontAlignY=36&desc=Self-hosted%20AI%20systems%20%C2%B7%20Multi-agent%20orchestration&descAlignY=56&descSize=18&animation=fadeIn" width="100%"/>
 
-<a href="https://github.com/erdenyagici-cmd/orbion">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2800&pause=900&color=38BDF8&center=true&vCenter=true&width=820&lines=A+personal+AI+office+that+runs+on+your+own+server;Multi-agent+orchestration+with+real+evidence;Gemini+%E2%86%92+Groq+%E2%86%92+Cloudflare+%E2%86%92+local+Ollama+failover;Your+data+never+leaves+your+box;Zero+cloud+lock-in.+Zero+per-token+panic." alt="typing"/>
+<a href="https://github.com/erdenyagici-cmd/ORBION">
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=2800&pause=900&color=38BDF8&center=true&vCenter=true&width=780&lines=Building+a+personal+AI+office+on+a+free-tier+VM;Multi-agent+orchestration+with+real+evidence;Gemini+%E2%86%92+Groq+%E2%86%92+Cloudflare+%E2%86%92+local+Ollama+failover;Wear+OS+health+bridge+%C2%B7+Telegram+bots+%C2%B7+live+console;Own+your+data.+Own+your+stack." alt="typing"/>
 </a>
 
-<br/>
+<br/><br/>
 
-[![ORBION repo](https://img.shields.io/badge/⬡_ORBION-View_the_project-0ea5e9?style=for-the-badge&logo=github)](https://github.com/erdenyagici-cmd/orbion)
-[![MIT](https://img.shields.io/badge/License-MIT-22c55e?style=for-the-badge)](https://github.com/erdenyagici-cmd/orbion/blob/main/LICENSE)
+[![Live demo](https://img.shields.io/badge/▶_Live_Demo-Open_the_console-0ea5e9?style=for-the-badge)](https://evren-demo.erdenyagici.workers.dev/operations.html)
+<a href="https://github.com/erdenyagici-cmd/ORBION">
+<img src="https://img.shields.io/badge/ORBION-Source-181717?style=for-the-badge&logo=github&logoColor=white" />
+</a>
 
-<br/>
-
-![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?style=flat-square&logo=python&logoColor=white)
-![Self-Hosted](https://img.shields.io/badge/Self--Hosted-✓-22c55e?style=flat-square)
-![Wear OS](https://img.shields.io/badge/Wear%20OS-companion-4285F4?style=flat-square&logo=wearos&logoColor=white)
-![Telegram](https://img.shields.io/badge/Telegram-interface-26A5E4?style=flat-square&logo=telegram&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-evidence%20model-003B57?style=flat-square&logo=sqlite&logoColor=white)
-![Cloudflare](https://img.shields.io/badge/Cloudflare-Tunnel%20%2F%20Workers-F38020?style=flat-square&logo=cloudflare&logoColor=white)
+<sub>demo password: <code>123456</code> · read-only, synthetic data</sub>
 
 </div>
 
 ---
 
-### 👋 What is this?
+## 👋 Hi, I'm Erden
 
-I build **ORBION** — a self-hosted *AI office*. One small server becomes a team of
-specialized agents: a coordinator that delegates, a coder, a mail archivist, a
-researcher — talking to you through **Telegram**, a **live web console**, and a
-**Wear OS watch face** that shows your agents working in real time.
+I build **self-hosted AI systems** — the kind that run on your own hardware, keep your
+data private, and don't depend on a single vendor.
 
-> Built on a free-tier ARM VM. No GPU. No vendor lock-in. No per-token anxiety.
+My main project, **[ORBION](https://github.com/erdenyagici-cmd/ORBION)**, turns one small
+server into a **multi-agent AI office**: a coordinator that delegates to specialists, a
+live web console, a Telegram interface, and a **Wear OS** bridge that streams health
+telemetry into a private database — all on a **$0/month** free-tier VM.
 
 <div align="center">
 
 <table>
 <tr>
-<td align="center" width="33%">🧠<br/><b>Multi-agent</b><br/><sub>Coordinator + specialists,<br/>every call logged with <code>call_id</code></sub></td>
-<td align="center" width="33%">🔀<br/><b>LLM pool</b><br/><sub>Gemini → Groq → Cloudflare →<br/>local Ollama, automatic failover</sub></td>
-<td align="center" width="33%">🔒<br/><b>Yours</b><br/><sub>Data stays on your box;<br/>no cloud leakage</sub></td>
-</tr>
-<tr>
-<td align="center">⌚<br/><b>Watch-native</b><br/><sub>Wear OS face +<br/>live office companion app</sub></td>
-<td align="center">🧾<br/><b>Evidence, not claims</b><br/><sub>"It's done" backed by<br/>a recorded call + status</sub></td>
-<td align="center">🩺<br/><b>Trust boundary</b><br/><sub>Battle-tested on a<br/>privacy-first health use case</sub></td>
+<td align="center" width="25%">🧠<br/><b>Multi-agent</b><br/><sub>Coordinator + specialists,<br/>every call logged with <code>call_id</code></sub></td>
+<td align="center" width="25%">🔀<br/><b>LLM failover</b><br/><sub>Gemini → Groq → Cloudflare →<br/>local Ollama, automatic</sub></td>
+<td align="center" width="25%">⌚<br/><b>Wear OS bridge</b><br/><sub>Battery-first health<br/>telemetry, device-stamped</sub></td>
+<td align="center" width="25%">🔒<br/><b>Yours</b><br/><sub>Data stays on your box;<br/>fail-closed security</sub></td>
 </tr>
 </table>
 
 </div>
 
-### 🩺 A note on the health companion
+---
 
-ORBION's architecture was forged on a **health-critical** use case we deliberately
-**do not publish** — personal health data belongs behind a reviewed trust boundary,
-not in a public clone. The design (isolated health agent, source-tagged medical
-record, evidence-based research with no fabricated citations, wearable ingestion
-via short-lived device tokens, hard safety rails, zero cloud leakage) is documented
-inside the project. It's the reason ORBION is paranoid about data by default.
+## 🚀 Featured project
 
-### 🚀 Start here
+<div align="center">
+<a href="https://github.com/erdenyagici-cmd/ORBION">
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=erdenyagici-cmd&repo=ORBION&theme=tokyonight&hide_border=true&description_lines_count=3" />
+</a>
+</div>
+
+> **ORBION** — a self-hosted multi-agent AI office. Zero cloud lock-in, modular LLM
+> providers, evidence-based agents, live topology, and a Wear OS companion.
+> **Live demo:** <https://evren-demo.erdenyagici.workers.dev/operations.html> (`123456`)
+
+**What it demonstrates**
+
+- 🏗️ **Systems design** — Caddy · systemd · SQLite · Cloudflare Tunnel/Worker · Oracle Cloud ARM
+- 🤖 **AI orchestration** — provider-agnostic LLM pool with graceful failover and quota accounting
+- 🎨 **Front-end craft** — zero-build vanilla JS panel with live SVG topology and animated agent office
+- 📱 **Android / Wear OS** — Samsung Health Sensor SDK, foreground service, battery-first design
+- 🔐 **Security engineering** — scoped sessions, per-bot allowlists, fail-closed auth, redacted logs
+
+---
+
+## 🧰 Tech I work with
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Android](https://img.shields.io/badge/Wear_OS-4285F4?style=for-the-badge&logo=wearos&logoColor=white)
+![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=cloudflare&logoColor=white)
+![Telegram](https://img.shields.io/badge/Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)
+![Ollama](https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white)
+
+---
+
+## 📊 GitHub
 
 <div align="center">
 
-<a href="https://github.com/erdenyagici-cmd/orbion">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=erdenyagici-cmd&repo=orbion&theme=tokyonight&hide_border=true" />
-</a>
+<img height="160" src="https://github-readme-stats.vercel.app/api?username=erdenyagici-cmd&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" />
+<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=erdenyagici-cmd&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" />
+
+<br/>
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=erdenyagici-cmd&theme=tokyonight&hide_border=true" height="150"/>
 
 </div>
 
-```bash
-git clone https://github.com/erdenyagici-cmd/orbion.git
-cd orbion && cp .env.example .env   # add your keys
-python3 -m venv .venv && . .venv/bin/activate
-pip install -r requirements.txt && python3 scripts/agent.py
-```
+---
 
 <div align="center">
 
-### 📊 GitHub
+### 🎯 Currently
 
-<img src="https://github-readme-stats.vercel.app/api?username=erdenyagici-cmd&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="150"/>
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=erdenyagici-cmd&theme=tokyonight&hide_border=true" height="150"/>
+Building ORBION in production · exploring local-first AI · documenting the architecture
+
+<br/>
+
+<a href="https://github.com/erdenyagici-cmd/ORBION">
+<img src="https://img.shields.io/badge/⭐_Star_ORBION_if_it_saves_you_a_cloud_bill-yellow?style=for-the-badge" />
+</a>
 
 <br/><br/>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:020617,50:6366f1,100:0ea5e9&height=110&section=footer"/>
 
-<sub><i>Your AI should be yours.</i> ⬡</sub>
+<sub><i>Your AI should be yours.</i> 📡</sub>
 
 </div>
